@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+/* Brand colours from docs/brand. Primary is the $ teal, lightened in dark mode for contrast. */
+@theme {
+  --color-brand-bg: #201e1d;
+  --color-brand-house: #f3f2f2;
+  --color-brand-dollar: #0081a7;
+  --color-brand-euro: #cc0066;
+  --color-brand-yen: #e2b100;
+  --color-primary: #00708f;
+  --color-primary-dark: #5cc3e0;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-stone-900 dark:bg-brand-bg dark:text-stone-100;
+}
