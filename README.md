@@ -1,6 +1,6 @@
 # HomePrice (web)
 
-PWA version of the HomePrice Android app: a currency converter, with a price tag scanner to come.
+PWA version of the HomePrice Android app: a currency converter and a camera price tag scanner (Tesseract.js OCR).
 The feature spec lives in the Android repo (`docs/feature-spec.md`).
 
 Stack: Vue 3, TypeScript, Vite, Tailwind CSS, vite-plugin-pwa, Vitest.
